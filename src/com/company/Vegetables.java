@@ -1,0 +1,22 @@
+package com.company;
+
+public class Vegetables {
+    private String name;
+    protected String color;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public void setColor(String color){
+        this.color = color;
+    }
+}
